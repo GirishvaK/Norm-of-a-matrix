@@ -18,7 +18,8 @@ os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,1)
-print(normal)
+norm=f"{ans:.2f}"
+print(ans)
 
 
 # 2-Norm of a Matrix
@@ -27,7 +28,7 @@ os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,2)
-print(f"{norm2:.2f}")
+print(f"{ans:.2f}")
 
 # Infinity Norm of a Matrix
 import os
